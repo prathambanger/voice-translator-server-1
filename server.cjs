@@ -7,7 +7,7 @@ const { v4: uuidv4 } = require("uuid");
 const PQueue = require("p-queue");
 const fs = require("fs");
 
-const speechsdk = require("azure-cognitiveservices-speech-sdk");
+const speechsdk = require("microsoft-cognitiveservices-speech-sdk");
 
 const app = express();
 app.use(cors());
@@ -155,3 +155,4 @@ app.post("/translate", upload.single("audioFile"), async (req, res) => {
 // =============================
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Translator server running on port ${PORT}`));
+
