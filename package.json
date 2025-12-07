@@ -9,9 +9,8 @@
     "dev": "nodemon server.cjs"
   },
   "dependencies": {
-    "@azure/cognitiveservices-translatortext": "^1.0.0",
+    "microsoft-cognitiveservices-speech-sdk": "^1.36..",
     "@azure/ms-rest-js": "^2.6.6",
-    "azure-cognitiveservices-speech-sdk": "^1.36.0",
     "express": "^4.19.2",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
@@ -36,6 +35,7 @@
   "author": "Your Name",
   "license": "MIT"
 }
+
 
 
 
