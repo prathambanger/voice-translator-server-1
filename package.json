@@ -22,7 +22,7 @@
     "nodemon": "^3.1.0"
   },
   "engines": {
-    "node": ">=18"
+    "node": "24.11.1"
   },
   "keywords": [
     "azure",
@@ -35,6 +35,7 @@
   "author": "Your Name",
   "license": "MIT"
 }
+
 
 
 
